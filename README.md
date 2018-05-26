@@ -1,3 +1,6 @@
+## NOTE
+This fork fixes GLRM to work on Python 3.
+
 ## GLRM
 
 GLRM is a python package for exploratory data analysis using Generalized Low
