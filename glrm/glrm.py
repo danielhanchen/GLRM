@@ -1,4 +1,4 @@
-from convergence import Convergence
+from .convergence import Convergence
 from numpy import sqrt, repeat, tile, hstack, array, zeros, ones, sqrt, diag, asarray, hstack, vstack, split, cumsum
 from numpy.random import randn
 from copy import copy
