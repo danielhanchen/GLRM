@@ -15,7 +15,7 @@ class Convergence(object):
         # return True if converged
         if len(self) < 2: return False
         if len(self) > self.max_iters: 
-            print "hit max iters for convergence object"
+            print("hit max iters for convergence object")
             return True
         return abs(self.obj[-1] - self.obj[-2])/self.obj[-2] < self.TOL
 
