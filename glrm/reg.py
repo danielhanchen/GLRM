@@ -1,6 +1,6 @@
 from numpy.linalg import norm
 from numpy import sign, Inf
-from util import shrinkage
+from .util import shrinkage
 import cvxpy as cp
 
 """
